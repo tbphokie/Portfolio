@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .nav-wrapper {
+    background-color: #CC76A1 !important;
+  }
+
+  html{
+    color: #3B1F2B !important;      
+  }
+
+
+  .secondary-content.material-icons {
+    background-color: #CC76A1 !important;
+  }
+  
+  .btn {
+    background-color: #3B1F2B !important;
+  }
+
+  .page-footer {
+    background-color: #CC76A1 !important;
+  }
+
+  .btn-floating {
+    background-color: #3B1F2B !important;
+  }       
+ 
+  .dropdown-content>li>a {
+    background-color: #CC76A1 !important;
+  }  
+
+  .input-field>label {
+    color: #847577 !important;
+  }  /*
+     .input-field {
+    background-color: #36494E !important;
+  }
+
+  .input-field>material-icons {
+    background-color: #C0BCB5 !important;
+  }
+ 
+
+       $(".nav-wrapper").css("background-color", themeColor);
+      $(".secondary-content>.material-icons").css("color", themeColor);
+      $(".btn").css("background-color", themeColor);
+      $(".page-footer").css("background-color", themeColor);
+      $(".input-field").css("color", themeColor);
+      $(".input-field>.material-icons").css("color", themeColor);
+      $(".input-field>label").css("color", themeColor);
+      $(".btn-floating").css("background-color", themeColor);
+      $(".dropdown-content>li>a").css("color", themeColor);
+    */
