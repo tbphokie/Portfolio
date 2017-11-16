@@ -1,11 +1,13 @@
-body {
+html, body {
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
+	flex-direction: column;
+	height: 100%;
   }
 
   main {
-    flex: 1 0 auto;
+	flex: 1 0 auto;
+	height: 100%;
   }
 
   .nav-wrapper {
@@ -26,7 +28,10 @@ body {
   }
 
   .page-footer {
-    background-color: #CC76A1 !important;
+	background-color: #CC76A1 !important;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
   }
 
   .btn-floating {
@@ -41,6 +46,7 @@ body {
     color: #847577 !important;
   }
 
+/* Below is to display the html version of my resume properly */
  /* Font Definitions */
  @font-face
 	{font-family:Wingdings;
@@ -967,7 +973,8 @@ ol
 	{margin-bottom:0in;}
 ul
 	{margin-bottom:0in;}
-
+
+
   /*
      .input-field {
     background-color: #36494E !important;
